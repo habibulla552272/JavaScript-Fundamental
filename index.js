@@ -42,13 +42,13 @@
 // alert('3'+3+3)
 // alert(6 -'4');
 
-let counter = 1;
+// let counter = 1;
 // let a=counter++
 // console.log(a);
 //  ++counter;
 //  console.log(counter);
-let c = ++counter;
-console.log(c);
+// let c = ++counter;
+// console.log(c);
 
 //comma
 
@@ -57,17 +57,64 @@ console.log(c);
 
 // Question mark operators and ternary operator
 
-let age = 18;
+// let age = 18;
 
-{
-  age > 18
-    ? console.log("hey baby")
-    : age < 18
-    ? console.log("hey baby 2")
-    : console.log("its wrong");
-}
+// {
+//   age > 18
+//     ? console.log("hey baby")
+//     : age < 18
+//     ? console.log("hey baby 2")
+//     : console.log("its wrong");
+// }
 
-let a,b= ""
-{
-  a + b > 4 ? console.log("Below") : console.log("over");
-}
+// let a,b= ""
+// {
+//   a + b > 4 ? console.log("Below") : console.log("over");
+// }
+
+// logical operators or
+
+// console.log(1||0);
+// console.log(null || 1);
+// console.log(null||0||1);
+// console.log(undefined || null||5);
+
+// true || console.log(`hey it's can do it`);
+// false ||console.log(`hey it's work`);
+
+//logical operators And
+
+// console.log(1 && 1);
+// console.log(0 && 1);
+// console.log(undefined && 1);
+// console.log(1 && 1);
+// console.log(alert(1)&& 2);
+
+// console.log(null || 2 && 6|| 4);
+
+// 1 > 0 && console.log("hey and and is work");
+
+// logical operators NOT
+
+// console.log(!true);
+// console.log(!false);
+// console.log(!!false);
+// console.log(!!true);
+
+// nullish coalescing operator
+
+let x = 5;
+let y;
+console.log(x ?? "hey");
+console.log(y ?? "hey");
+
+console.log((1 && 2) ?? 4);
+
+let width,height;
+let area = height ?? 100*width ?? 50;
+console.log(area);
+
+let area2 = height ?? (100*width)??50;
+console.log(area2);
+
+
