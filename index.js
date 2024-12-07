@@ -47,13 +47,27 @@ let counter = 1;
 // console.log(a);
 //  ++counter;
 //  console.log(counter);
-let c= ++counter
- console.log(c);
- 
+let c = ++counter;
+console.log(c);
+
 //comma
 
 // let a = (1+2,2*3);
 // console.log(a);
 
+// Question mark operators and ternary operator
 
+let age = 18;
 
+{
+  age > 18
+    ? console.log("hey baby")
+    : age < 18
+    ? console.log("hey baby 2")
+    : console.log("its wrong");
+}
+
+let a,b= ""
+{
+  a + b > 4 ? console.log("Below") : console.log("over");
+}
