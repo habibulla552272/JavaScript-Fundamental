@@ -103,18 +103,44 @@
 
 // nullish coalescing operator
 
-let x = 5;
-let y;
-console.log(x ?? "hey");
-console.log(y ?? "hey");
+// let x = 5;
+// let y;
+// console.log(x ?? "hey");
+// console.log(y ?? "hey");
 
-console.log((1 && 2) ?? 4);
+// console.log((1 && 2) ?? 4);
 
-let width,height;
-let area = height ?? 100*width ?? 50;
-console.log(area);
+// let width,height;
+// let area = height ?? 100*width ?? 50;
+// console.log(area);
 
-let area2 = height ?? (100*width)??50;
-console.log(area2);
+// let area2 = height ?? (100*width)??50;
+// console.log(area2);
 
 
+
+// loop outer:
+
+// outer:for (let index = 0; index < 4; index++) {
+//     for (let inde = 0; inde < 4; inde++) {
+//          let x = prompt(`value at coords (${index},${inde})`)
+        
+//         if(!x) break outer;
+//     }
+    
+// }
+
+let i ="1";
+let b =0;
+// while(i) console.log(i--);
+// while(i) console.log(--i);
+
+switch(+i){
+    case b+1:
+        console.log('hey');
+        break;
+    default:
+        console.log('hey bro');
+        
+        
+}
