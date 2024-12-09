@@ -117,30 +117,59 @@
 // let area2 = height ?? (100*width)??50;
 // console.log(area2);
 
-
-
 // loop outer:
 
 // outer:for (let index = 0; index < 4; index++) {
 //     for (let inde = 0; inde < 4; inde++) {
 //          let x = prompt(`value at coords (${index},${inde})`)
-        
+
 //         if(!x) break outer;
 //     }
-    
+
 // }
 
-let i ="1";
-let b =0;
-// while(i) console.log(i--);
-// while(i) console.log(--i);
+// let i ="1";
+// let b =0;
+// // while(i) console.log(i--);
+// // while(i) console.log(--i);
 
-switch(+i){
-    case b+1:
-        console.log('hey');
-        break;
-    default:
-        console.log('hey bro');
-        
-        
+// switch(+i){
+//     case b+1:
+//         console.log('hey');
+//         break;
+//     default:
+//         console.log('hey bro');
+
+// }
+
+// function expresion
+
+// function ask(question,yes,no){
+//     if(confirm(question)) yes()
+//     else no()
+// }
+
+// function showOK(){
+//     console.log('you agreed');
+
+// }
+// function showCancel(){
+//     console.log('you canceled the execution');
+
+// }
+
+// ask('do you agree ?',showOK,showCancel)
+
+let age = 13;
+
+if (age < 19) {
+  function welcome() {
+    console.log("hello");
+  }
+} else {
+  function welcome() {
+    alert("greetings");
+  };
 }
+
+welcome()
