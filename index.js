@@ -160,16 +160,21 @@
 
 // ask('do you agree ?',showOK,showCancel)
 
-let age = 13;
+// let age = 13;
 
-if (age < 19) {
-  function welcome() {
-    console.log("hello");
-  }
-} else {
-  function welcome() {
-    alert("greetings");
-  };
+// if (age < 19) {
+//   function welcome() {
+//     console.log("hello");
+//   }
+// } else {
+//   function welcome() {
+//     alert("greetings");
+//   };
+// }
+
+// welcome()
+
+for(let i= 0;i<5;i++){
+  console.log('value',i);
+  
 }
-
-welcome()
